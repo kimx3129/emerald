@@ -3,6 +3,7 @@ layout: page
 title: About Simon
 ---
 ## Brief introduction about Simon
+
 My real name is Sungmin. I don't mind being called 'Sungmin', but I made up my nickname as Simon. Please feel free to call me Simon. FYI, I'm originally from South Korea (sometimes I ought to specify which part of Korea I was born since occasionally people ask me 'Are you from North or South?'). 
 
 I'm an enthusiastic Data Scientist and would love to explore diverse field of interests. I love to collect data at any cost and analyze them to gain potential insights and discover hidden values. As one of the frequently mentioned buzzword 'Big Data', my passion toward Big Data is keep growing as time goes by and the more data I acquire and glance at them the busier I will be due to the bulk of data preprocessing and implementations I need to process.
@@ -15,7 +16,7 @@ Data exist everywhere, either visible or invisible, and I strongly believe data 
 
 ### [1] Udemy - Instructor [Feb 2019 - Current]
 
-- Teach **Cracking Python code for Newbies** course. [course link](https://www.udemy.com/cracking-python-code-for-newbies/learn/v4/overview)
+- Teach **Cracking Python code for Newbies** course. [Course link](https://www.udemy.com/cracking-python-code-for-newbies/learn/v4/overview)
 - Mainly focus on Fundamental Python Language for the beginners & newbies. 
 
 ### [2] CarVi Inc - Data Scientist [Feb 2017 - Jan 2019]
@@ -32,3 +33,28 @@ Data exist everywhere, either visible or invisible, and I strongly believe data 
 
 - Focused mainly on Text and Image Retrieval from web using **BeautifulSoup** and **Pandas** in Python for further Radiologist report analysis
 
+### [4] First Analytics - Data Scientist Intern [June 2016 - Aug 2016]
+
+- Developed analytical supports for various projects using Python and R
+
+- Performed Clustering Analysis and Text Mining with NLP for Animal-Health Company
+
+- Created a Data Profiling Program for Python version
+
+### [5] Digi International - Software Engineer [Jan 2013 - Aug 2013]
+
+- Developed wireless router programs to enhance their running environment
+
+- Wrote a unit test in Python for device functionality
+
+## Technical Skills
+
+- Python, Java, C, C++, NodeJS, R, SQL
+
+- AWS (S3, IoT, DynamoDB, RedShift, Kinesis Stream & Firehose, Lambda, CloudWatch, CloudFormation)
+
+## Education
+
+- Master of Science(MS) in *Data Science*, Depaul University, Chicago IL
+
+- Bachelor of Science(BS) in *Computer Science*, University of Minnesota - Twin Cities, Minneapolis MN
