@@ -27,7 +27,9 @@ And this is a HTML example, with a linenumber:
 {% endhighlight %}
 
 Hello World example
-{% highlight ruby linenos %}
+{% highlight python linenos %}
+import cv2
+import numpy as np
 
 print("Hello World!")
 
