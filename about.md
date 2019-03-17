@@ -14,21 +14,21 @@ Data exist everywhere, either visible or invisible, and I strongly believe data 
 ## Work Experiences
 
 ### [1] Udemy - Instructor [Feb 2019 - Current]
-> The course title is Cracking Python code for Newbies' and I'm teaching a Python Language for the beginners & newbies. I wish this lecture helps lots of people around the globe who are eager to learn Python from scratch. Find my lecture on Udemy.
+
+- Teach **Cracking Python code for Newbies** course. [course link](https://www.udemy.com/cracking-python-code-for-newbies/learn/v4/overview)
+- Mainly focus on Fundamental Python Language for the beginners & newbies. 
 
 ### [2] CarVi Inc - Data Scientist [Feb 2017 - Jan 2019]
-> CarVi, a Silicon Valley technology company, was started by trailblazing driver assist engineers whose goal was to make top-of-the-line driving safety features available to everyone. CarVi’s team members have more than 20 years of experience in design and development of value-added technology products for the automobile industry. Our vision for CarVi is to create products that are affordable, versatile and not dependent on high-price-tag automobiles. This approach to personal, portable solutions makes CarVi an innovator in driver safety. CarVi designs, develops, and implements this value-added finished product and provides customized algorithms that reflect its engineering expertise.
 
 - Applied state-of-the-art data mining and machine learning tools to analyze driving pattern & driver behavior
 
-- Implemented data flow, automated data preprocessing functionality and dashboard with *AWS*
+- Implemented data flow, automated data preprocessing functionality and dashboard with **AWS**
 
-- Video On Demand(VOD) feature implementation with *Python* in *AWS* in a real-time. 
+- Video On Demand(VOD) feature implementation with **Python** in **AWS** in a real-time. 
 
 ### [3] Depaul University - Research Assistant [Aug 2016 - May 2017]
-> DePaul University is the nation's largest Catholic university, with about 23,000 students and about 300 degree programs. Its partnerships throughout Chicago enable DePaul to provide an exceptional educational experience that is vibrant, pragmatic and socially engaged. Classes are small and taught by knowledgeable and experienced faculty members who take full advantage of Chicago’s corporate, cultural and community resources. DePaul is nationally recognized for incorporating service learning throughout its curriculum and for the academic rigor and prominence of its programs. Founded in 1898 by the Congregation of the Mission (Vincentians), DePaul’s tradition of providing a quality education to students from a broad range of backgrounds, with particular attention to first-generation students, has resulted in one of the nation’s most diverse student bodies. With 10 colleges and schools, DePaul has campuses in Chicago’s Loop and Lincoln Park neighborhoods, three suburban locations, and degree programs in several nations. It is a member of the BIG EAST Conference in Division I sports.
 
 - Performed a project for Computer-Aided Diagnosis for clinical decision support
 
-- Focused mainly on Text and Image Retrieval from web using *BeautifulSoup* and *Pandas* in Python for further Radiologist report analysis
+- Focused mainly on Text and Image Retrieval from web using **BeautifulSoup** and **Pandas** in Python for further Radiologist report analysis
 
