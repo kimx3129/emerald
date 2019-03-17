@@ -1,34 +1,16 @@
 ---
-title: Image Processing & Computer Vision with Python
+title: Image Processing & Computer Vision
 ---
-To insert highlight code inside of a post, it's enough to use some specific tags, has directly described into the [Jekyll documentation](http://jekyllrb.com/docs/templates/#code-snippet-highlighting). In this way the code will be included into a ``.highlight`` CSS class and will be highlight according to the [syntax.scss](https://github.com/mojombo/tpw/blob/master/css/syntax.css) file. This is the standard style adopted by **Github** to highlight the code. 
 
-This is a CSS example:
-{% highlight css linenos %}
+# Introduction
 
-body {
-  background-color: #fff;
-  }
+# Computer Vision Usage
 
-h1 {
-  color: #ffaa33;
-  font-size: 1.5em;
-  }
-
-{% endhighlight %}
-
-And this is a HTML example, with a linenumber:
-{% highlight html linenos %}
-
-<html>
-  <a href="example.com">Example</a>
-</html>
-
-{% endhighlight %}
+# What tool & libraries we are going to use
 
 Hello World example
 {% highlight ruby linenos %}
 
-print("Hello World!")
+print("Welcome!")
 
 {% endhighlight %}
