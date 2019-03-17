@@ -3,7 +3,7 @@ title: Image Processing & Computer Vision
 ---
 
 # Introduction
-Hello
+Hello.
 # Computer Vision Usage
 
 # What tool & libraries we are going to use
