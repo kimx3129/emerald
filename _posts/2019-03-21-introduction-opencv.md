@@ -12,10 +12,13 @@ title: 이미지 프로세싱 & 컴퓨터 시각화 2부
 다른 언어와 마찬가지로 파이썬도 수많은 페키지/라이브러리들을 제공합니다. 이것들을 import하여 우리의 작업공간에서 마음껏 사용할 수 있죠. 또한 무료이기 때문에 참 좋죠?
 다음과 같은 페키지들을 기본적으로 불러옵니다 (아마 끝날때까지 제네들은 거의 계속 불러올 예정이에요)
 
-> import numpy as np
-  import cv2
-  import matplotlib.pyplot as plt
-  %matplotlib inline
+```python
+import numpy as np
+import cv2
+import matplotlib.pyplot as plt
+
+%matplotlib inline
+```
 
 numpy는 파이썬에서 array형태의 데이터를 좀 더 효율적으로 많은 연산과 형태 변환 기능을 가능케 해주며 cv는 opencv페키지입니다. opencv2이기 때문에 페키지를 부를때 cv2입니다. 아....주 가끔 cv뒤에 왜 2를 붙이냐고 물어보는 사람이 있길래;;; matplotlib은 workspace에 이미지를 보여줄때 많이 쓰입니다. 물론 seaborn이라는 훌륭한 녀석도 존재하지만 저는 matplotlib을 쓸께요. 혹시나 모르는 분들이 계실까봐 노파심에서 부연설명을 아주 짧게 할께요. import할때 as라는 키워드를 쓰는데 페키지 이름이 너무 길경우 as(ALIAS)로 축약하여 사용할 수 있습니다. 맨 마지막 녀석 %matplotlib inline은 생소한 분들도 계시겠지만 저건 import하는것이 아닙니다. 이걸 넣어줘야 우리는 이미지를 작업공간에서 바로 볼 수 있습니다. 그렇지 않으면 우리는 
 
@@ -36,11 +39,15 @@ numpy는 파이썬에서 array형태의 데이터를 좀 더 효율적으로 많
 
 아주 간단한 작업부터 한번 해보죠. 사진을 한번 불러와볼께요. 
 
-> img = cv2.imread('DATA/minions.png')
+```python
+img = cv2.imread('DATA/minions.png')
+```
 
 끝이에요. cv2의 **imread** 라는 함수를 사용하여 이미지를 불러옵니다. 이미지가 어디에 위치해 있는지 구체적인 filepath를 명시해주면 됩니다. 저같은 경우에는 DATA폴더 안에 minions.png파일을 읽었군요. 그럼 이미지를 한번 불러와볼까요?
 
-> plt.imshow(img)
+```python
+plt.imshow(img)
+```
 
 ![strange_minions](/emerald/img/strange_minions.png "strange_minions")
 
