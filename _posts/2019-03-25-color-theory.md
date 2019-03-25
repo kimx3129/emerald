@@ -45,7 +45,7 @@ plt.imshow(right_img)
 ![not_strange_minions](/emerald/img/not_strange_minions.png "not_strange_minions")
 
 두번째줄에 cvtColor라는 함수를 사용하여 우리는 색깔의 시스템을 바꿨네요. **cv2.COLOR_BGR2RGB**를 자세히 보면 COLOR를 BGR에서 RGB로 바꿔줘!! 이런 뜻이겠네요. 웃긴점은 여기서 숫자2가 사용된점인데 A에서 B로 바꿔달라고 할때 Change A to B라 하잖아요. 아마 영어발음이 to랑 two랑 비슷해서, 그리고 함수이름을 조금이라도 덜 장황하게 하기 위해 숫자2를 쓴거 같습니다. 여담이 길었네요. 
-RGB형태로 바꿨기 때문에 우리는 이제 우리가 알던 미니언즈를 볼 수 있습니다. 
+RGB형태로 바꿨기 때문에 우리는 이제 우리가 알던 미니언즈를 볼 수 있습니다. :)
 
 RGB와 BGR모두 3차원 array형태입니다. 그럼 여기서 질문!! 흑백이미지는 어떤가요? 답은 너무 간단합니다. 칼라풀한 이미지를 흑백으로 불러오는 방법은 다음 두가지 방법이 존재합니다.
 
