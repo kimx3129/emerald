@@ -8,9 +8,9 @@ title: 이미지 프로세싱 & 컴퓨터 시각화 2부
 
 ![empty_work](/emerald/img/empty_work.png "empty_work")  
 
-[1] 페키지 불러오기 
-다른 언어와 마찬가지로 파이썬도 수많은 페키지/라이브러리들을 제공합니다. 이것들을 import하여 우리의 작업공간에서 마음껏 사용할 수 있죠. 또한 무료이기 때문에 참 좋죠?
-다음과 같은 페키지들을 기본적으로 불러옵니다 (아마 끝날때까지 제네들은 거의 고정으로 계속 불러올 예정이에요)
+[1] 패키지 불러오기 
+다른 언어와 마찬가지로 파이썬도 수많은 패키지/라이브러리들을 제공합니다. 이것들을 import하여 우리의 작업공간에서 마음껏 사용할 수 있죠. 또한 무료이기 때문에 참 좋죠?
+다음과 같은 패키지들을 기본적으로 불러옵니다 (아마 끝날때까지 제네들은 거의 고정으로 계속 불러올 예정이에요)
 
 ```python
 import numpy as np
@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 ```
 
-numpy는 파이썬에서 array형태의 데이터를 좀 더 효율적으로 많은 연산과 형태 변환 기능을 가능케 해주며 cv는 opencv페키지입니다. opencv2이기 때문에 페키지를 부를때 cv2입니다. 아....주 가끔 cv뒤에 왜 2를 붙이냐고 물어보는 사람이 있길래;;; matplotlib은 workspace에 이미지를 보여줄때 많이 쓰입니다. 물론 seaborn이라는 훌륭한 녀석도 존재하지만 저는 matplotlib을 쓸께요. 혹시나 모르는 분들이 계실까봐 노파심에서 부연설명을 아주 짧게 할께요. import할때 as라는 키워드를 쓰는데 페키지 이름이 너무 길경우 as(ALIAS)로 축약하여 사용할 수 있습니다. 맨 마지막 녀석 %matplotlib inline은 생소한 분들도 계시겠지만 저건 import하는것이 아닙니다. 이걸 넣어줘야 우리는 이미지를 작업공간에서 바로 볼 수 있습니다. 그렇지 않으면 우리는 
+numpy는 파이썬에서 array형태의 데이터를 좀 더 효율적으로 많은 연산과 형태 변환 기능을 가능케 해주며 cv는 opencv패키지입니다. opencv2이기 때문에 패키지를 부를때 cv2입니다. 아....주 가끔 cv뒤에 왜 2를 붙이냐고 물어보는 사람이 있길래;;; matplotlib은 workspace에 이미지를 보여줄때 많이 쓰입니다. 물론 seaborn이라는 훌륭한 녀석도 존재하지만 저는 matplotlib을 쓸께요. 혹시나 모르는 분들이 계실까봐 노파심에서 부연설명을 아주 짧게 할께요. import할때 as라는 키워드를 쓰는데 패키지 이름이 너무 길경우 as(ALIAS)로 축약하여 사용할 수 있습니다. 맨 마지막 녀석 %matplotlib inline은 생소한 분들도 계시겠지만 저건 import하는것이 아닙니다. 이걸 넣어줘야 우리는 이미지를 작업공간에서 바로 볼 수 있습니다. 그렇지 않으면 우리는 
 
 > <matplotlib.figure.Figure at 0x110b9c450>
 
@@ -30,10 +30,10 @@ numpy는 파이썬에서 array형태의 데이터를 좀 더 효율적으로 많
  
 ![import](/emerald/img/import.png "Gray")
 
-만약 아무런 에러가 없이 정상적으로 페키지들을 불러왔다면 우리는 아무런 에러메세지를 접하지 않을 꺼에요. 지금까지는 준비단계였어요. 이제부터 본격적으로 opencv에 대한 설명을 해야겠군요. opencv 공식 웹사이트에 긁어왔습니다. 영문이니 참고하세요. 자세한 정보는 직접 웹사이트에 방문하시면 되겠네요. (https://opencv.org/)
+만약 아무런 에러가 없이 정상적으로 패키지들을 불러왔다면 우리는 아무런 에러메세지를 접하지 않을 꺼에요. 지금까지는 준비단계였어요. 이제부터 본격적으로 opencv에 대한 설명을 해야겠군요. opencv 공식 웹사이트에 긁어왔습니다. 영문이니 참고하세요. 자세한 정보는 직접 웹사이트에 방문하시면 되겠네요. (https://opencv.org/)
 > OpenCV (Open Source Computer Vision Library) is released under a BSD license and hence it’s free for both academic and commercial use. It has C++, Python and Java interfaces and supports Windows, Linux, Mac OS, iOS and Android. OpenCV was designed for computational efficiency and with a strong focus on real-time applications. Written in optimized C/C++, the library can take advantage of multi-core processing. Enabled with OpenCL, it can take advantage of the hardware acceleration of the underlying heterogeneous compute platform.
   
-그럼 저의 관점에서 설명해 볼께요. opencv는 파이썬을 포함함 몇가지 프로그래밍 언어를 사용하여 이미지 프로세싱과 컴퓨터 시각화를 다룰때 필수불가결한 페키지입니다. 사진을 회전하고, 크기를 변경시키고, 흑백 이미지로 바꾸고 나아가 edge를 감지하고 얼굴 인식도 하고 contour도 감지하고.. 너무 많군요. 나열은 여기까지 할게요 opencv는 마치 문을 열기 위해서 무조건 그에 맞는 키를 사용해야만 문을 열 수 있듯이 우리는 앞에 열거된 목적을 이루기 위해 필요한 페키지입니다. 
+그럼 저의 관점에서 설명해 볼께요. opencv는 파이썬을 포함함 몇가지 프로그래밍 언어를 사용하여 이미지 프로세싱과 컴퓨터 시각화를 다룰때 필수불가결한 패키지입니다. 사진을 회전하고, 크기를 변경시키고, 흑백 이미지로 바꾸고 나아가 edge를 감지하고 얼굴 인식도 하고 contour도 감지하고.. 너무 많군요. 나열은 여기까지 할게요 opencv는 마치 문을 열기 위해서 무조건 그에 맞는 키를 사용해야만 문을 열 수 있듯이 우리는 앞에 열거된 목적을 이루기 위해 필요한 패키지입니다. 
 
 ![open_key](/emerald/img/open_key.png "Face_Rec")
 
