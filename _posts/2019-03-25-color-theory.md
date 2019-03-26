@@ -90,7 +90,7 @@ plt.imshow(hsv_img)
 ```
 ![hsv_minions](/emerald/img/hsv_minions.png "hsv_minions")
 
-역시 **cvtColor()** 함수를 사용하였어요. opencv에는 정말 다양한 color format이 존재합니다. 확인하는 방법은 jupyter notebook에서 cv2.COLOR_ 까지 치시고 tab키를 누르시면 다음과 같이 사용 가능한 파라미터값들이 쫘르륵 나열됩니다. 물론 파이썬 모든 패키지를 사용할때 tab키를 눌러 어떤 함수들이 존재하는지, 어떤 매개변수들을 사용할 수 있는지 한눈에 확인할 수 있지요. 오늘따라 여담이 많군요 흐흠..
+역시 **cvtColor()** 함수를 사용하였어요. opencv에는 정말 다양한 color format이 존재합니다. 확인하는 방법은 jupyter notebook에서 cv2.COLOR_BGR 까지 치시고 tab키를 누르시면 다음과 같이 사용 가능한 파라미터값들이 쫘르륵 나열됩니다. 그럼 BGR에서 어떤 녀석으로 변경 가능한지를 알 수 있어요. 물론 BGR말고 RGB나 HSV에서도 다른녀석으로 바꿀 수 있어요. opencv는 매우 관대해요. 혹시 모르시는 분들이 있을수도 있어서... 파이썬 모든 패키지를 사용할때 tab키를 눌러 어떤 함수들이 존재하는지, 어떤 매개변수들을 사용할 수 있는지 한눈에 확인할 수 있지요. 오늘따라 여담이 많군요 흐흠..
 
 ![options](/emerald/img/options.png "options")
 
