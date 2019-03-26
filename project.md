@@ -4,11 +4,15 @@ title: Project
 ---
 ## Project
 
+### Finger Detection & Count from Live Cam - March 2019
+- Applied diverse opencv functions such as Threshold, Contour Detection, Convex Hull, Bitwise operator.
+- Used Convex Hull to detect a hand and draw a polygon to estimate an area of fully stretched hand. Then regard something as a finger of it is detected outside of polygon.
+
 ### Lung Nodule Classification - May 2017
 
-- Gaining basic concepts of ontology and what machine learning tools are needed
+- Gaining basic concepts of ontology and what machine learning tools are needed.
 - Analyzed texts to find out patterns & frequent terms for specific diseases using decision tree & k-means clustering.
-- Used Tableau to demonstrate category coverage based on my classification since each disease belongs to different categories
+- Used Tableau to demonstrate category coverage based on my classification since each disease belongs to different categories.
 
 ### Baseball Analysis & Visualization - (with Abram, Chris, Matt, Jay) - March 2017
 
@@ -16,7 +20,7 @@ title: Project
 
 ### Crime Prediction - (with Abram and Chris) - May 2016
 
-- Loaded and preprocess a huge data set(more than 5m rows)
+- Loaded and preprocess a huge data set(more than 5m rows).
 - Explored the data set using multiple methods such as Pandas and Seaborn.
 - Used the attributes such as longitude, latitude, crime type, crime time, crime date, crime street, etc. to create a probabilistic or predictive model that recommends caution when in certain areas of Chicago at certain times. Initial emphasis will be on armed and strongarm robberies in the Chicago area. 
 - Implemented an application using Python Flask web framework.
